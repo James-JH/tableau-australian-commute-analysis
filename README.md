@@ -1,72 +1,72 @@
-# Australian Commute Patterns & Transport Usage Dashboard
+# Australian Commuting & Transport Analysis
 
 ## Overview
-In this project, I explore commuting behaviour and transport usage patterns across Australia, focusing on how far people travel to work, how public transport usage has changed over time, and how transport demand differs between capital cities and regional areas.
 
-I combined national and state-level datasets to create clear, comparable insights for urban planners, policymakers, and the general public. To improve analytical clarity, I intentionally avoided map-based visualisations and instead focused on trend and comparison-driven charts.
+In this project, I explored commuting behaviour and transport usage patterns across Australia, focusing on how far people travel to work, how public transport usage has changed over time, and how transport demand differs between capital cities and regional areas.
 
-## Key Questions
-- How do commuting distances differ between capital cities and regional Australia?
-- Which regions commute the furthest to their place of work?
-- How has public transport usage changed between 2011 and 2021?
-- What seasonal trends exist across different public transport modes?
-- How does road traffic usage vary across regions in Victoria?
+I combined national and state-level datasets to produce clear, comparable insights for urban planners, policymakers, and the general public. To improve analytical clarity, I intentionally avoided map-based visualisations and instead focused on trend- and comparison-driven charts that highlight patterns without geographic distortion.
 
-## Data Sources
-- **Australian Bureau of Statistics (ABS)**
-  - Median distance travelled to work by area
-  - Yearly public transport usage (2011, 2016, 2021)
-- **Data Victoria – Department of Transport and Planning**
-  - Monthly public transport usage by mode
-  - Traffic and road usage by region in Victoria
+## Approach
+
+I began by defining the key questions around commuting distance, transport usage trends, and regional demand. I sourced and combined multiple datasets from the Australian Bureau of Statistics (ABS) and Data Victoria, ensuring alignment across regions and time periods to support meaningful comparison.
+
+## Data Preparation
+
+The datasets were cleaned and prepared prior to visualisation by filtering unnecessary fields, standardising categories, and selecting metrics that best represent typical behaviour. Median commuting distance was used instead of mean to reduce the influence of extreme outliers and improve interpretability.
+
+## Visual Design
+
+Each visualisation was designed to prioritise trend detection, comparability, and accessibility. I selected chart types that clearly communicate changes over time and differences between regions. Consistent colour palettes, layouts, and scales were applied to reduce cognitive load and improve readability.
 
 ## Visualisations Included
-- **Median commuting distance by Greater Capital City Statistical Area**
-  - I used this to show how commuters in the ACT, Greater Melbourne, and Greater Brisbane generally travel further to work compared to regional areas.
-- **Yearly public transport usage by mode**
-  - I compared changes in train, bus, tram, taxi, and ferry usage across census years.
-- **Monthly public transport usage**
-  - I visualised seasonal demand patterns across metro and regional transport modes.
-- **Total annual road traffic usage in Victoria**
-  - I highlighted traffic concentration across metropolitan regions versus other areas.
 
-Each visualisation was designed to prioritise trend detection, comparability, and accessibility.
+- **Median commuting distance by Greater Capital City Statistical Area**  
+  Highlights longer commute distances in regions such as the ACT, Greater Melbourne, and Greater Brisbane.
+
+- **Yearly public transport usage by mode (2011–2021)**  
+  Compares changes across train, bus, tram, taxi, and ferry usage.
+
+- **Monthly public transport usage by mode**  
+  Reveals seasonal demand patterns across metropolitan and regional services.
+
+- **Total annual road traffic usage in Victoria**  
+  Shows the concentration of traffic volume in metropolitan regions compared to other areas.
+
+## Dashboard Development
+
+All visualisations were combined into a single interactive Tableau dashboard. The layout was designed to guide users logically through the analysis, with interactive filters allowing exploration by year, region, and transport mode.
 
 ## Key Insights
-- I found that capital city residents generally experience longer median commute distances than those living in regional areas.
-- Public transport usage shows strong growth in metro rail-based modes, particularly trains and trams.
-- Transport demand exhibits clear seasonal variation across most public transport modes.
-- Road traffic volume in Victoria is heavily concentrated in metropolitan regions, highlighting ongoing infrastructure pressure.
 
-## Design Decisions
-- I avoided map-based visualisations to prevent geographic size from dominating interpretation.
-- I selected median commute distance instead of mean to reduce the influence of extreme outliers.
-- I implemented interactive filters to allow exploration by year, region, and transport mode.
-- I used consistent colour palettes and layouts to reduce cognitive load and improve readability.
+- Capital city residents generally experience longer median commute distances than those in regional areas  
+- Rail-based public transport modes, particularly trains and trams, show strong long-term growth  
+- Transport demand exhibits clear seasonal patterns across most public transport modes  
+- Road traffic usage in Victoria is heavily concentrated in metropolitan regions, indicating ongoing infrastructure pressure  
 
 ## Limitations & Future Work
-- Commute data is limited to median distance and does not capture full distributions or travel time.
-- Public transport data is aggregated at regional and yearly levels, limiting route-level analysis.
-- Remote and hybrid work trends, particularly post-2021, are not reflected in the data.
-- Road traffic analysis is limited to Victoria and cannot be compared nationally.
 
-In future iterations, I would like to:
-- Incorporate travel time and congestion-based metrics
-- Analyse post-pandemic transport trends (2022 onwards)
-- Add sustainability and emissions indicators
-- Integrate real-time or sensor-based transport data
+This analysis is limited by the use of aggregated data, which does not capture full commute distributions, travel time, or route-level detail. Road traffic analysis is restricted to Victoria, and post-pandemic changes such as remote and hybrid work are not reflected.
+
+Future improvements could include:
+- Incorporating travel time and congestion metrics  
+- Analysing post-2021 transport trends  
+- Adding sustainability and emissions indicators  
+- Integrating real-time or sensor-based transport data  
 
 ## Tools & Technologies
-- Tableau for interactive dashboard development
-- Public datasets from ABS and Data Victoria
-- Data cleaning and preprocessing performed prior to visualisation
+
+- Tableau for interactive dashboard development  
+- Public datasets from the Australian Bureau of Statistics and Data Victoria  
+- Data cleaning and preprocessing performed prior to visualisation  
 
 ## Intended Audience
-- Government and transport policymakers
-- Urban and infrastructure planners
-- Data analytics and visualisation professionals
-- Members of the public interested in Australian transport trends
+
+- Government and transport policymakers  
+- Urban and infrastructure planners  
+- Data analytics and visualisation professionals  
+- Members of the public interested in Australian transport trends  
 
 ## Author
-James Huynh  
-Dashboard created: 01/09/2024
+
+**James Huynh**  
+Dashboard created: **01/09/2024**
